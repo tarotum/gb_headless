@@ -127,7 +127,7 @@ function gb_headless_register_required_plugins() {
 			'slug'               => 'wp-rest-polylang', // The plugin slug (typically the folder name).
 			'source'             => get_template_directory() . '/lib/plugins/wp-rest-polylang-master.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'external_url'       => 'https://github.com/maru3l/wp-rest-polylang', // If set, overrides default API URL and points to an external URL.
+			'external_url'       => 'https://github.com/tarotum/wp-rest-polylang', // If set, overrides default API URL and points to an external URL.
 		),
 		array(
 			'name'               => 'WP Trigger Netlify Build', // The plugin name.
