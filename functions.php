@@ -15,3 +15,8 @@ function gb_headless_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'gb_headless_scripts' );
 
+
+/**
+ * Include config with required plugins
+ */
+require get_template_directory() . '/inc/plugin-activation.php';
