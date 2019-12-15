@@ -17,4 +17,3 @@
 			
 		</main><!-- #main -->
 	</div><!-- #primary -->
-<?php
