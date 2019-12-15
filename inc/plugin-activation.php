@@ -120,27 +120,21 @@ function gb_headless_register_required_plugins() {
 			'slug'               => 'polylang-slug', // The plugin slug (typically the folder name).
 			'source'             => get_template_directory() . '/lib/plugins/polylang-slug-master.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => 'https://github.com/grappler/polylang-slug/', // If set, overrides default API URL and points to an external URL.
+			'external_url'       => 'https://github.com/grappler/polylang-slug', // If set, overrides default API URL and points to an external URL.
 		),
 		array(
-			'name'               => 'wp-rest-polylang', // The plugin name.
+			'name'               => 'WP REST - Polylang', // The plugin name.
 			'slug'               => 'wp-rest-polylang', // The plugin slug (typically the folder name).
 			'source'             => get_template_directory() . '/lib/plugins/wp-rest-polylang-master.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => 'https://github.com/maru3l/wp-rest-polylang/', // If set, overrides default API URL and points to an external URL.
+			'external_url'       => 'https://github.com/maru3l/wp-rest-polylang', // If set, overrides default API URL and points to an external URL.
 		),
 		array(
-			'name'               => 'wp-trigger-netlify-build', // The plugin name.
+			'name'               => 'WP Trigger Netlify Build', // The plugin name.
 			'slug'               => 'wp-trigger-netlify-build', // The plugin slug (typically the folder name).
 			'source'             => get_template_directory() . '/lib/plugins/wp-trigger-netlify-build-master.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
-			'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-			'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
-			'external_url'       => 'https://github.com/iamtimsmith/wp-trigger-netlify-build/', // If set, overrides default API URL and points to an external URL.
+			'external_url'       => 'https://github.com/iamtimsmith/wp-trigger-netlify-build', // If set, overrides default API URL and points to an external URL.
 		),
 		// This is an example of how to include a plugin from an arbitrary external source in your theme.
 		// array(
