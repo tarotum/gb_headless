@@ -14,12 +14,5 @@
 ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
-			<?php
-
-				var_dump(get_post_types( array( 'public' => true ), 'names' ));
-
-			?>
-			
 		</main><!-- #main -->
 	</div><!-- #primary -->
