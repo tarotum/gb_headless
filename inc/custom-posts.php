@@ -32,7 +32,7 @@ function cptui_register_my_cpts() {
 		"hierarchical" => false,
 		"rewrite" => [ "slug" => "work", "with_front" => true ],
 		"query_var" => true,
-		"supports" => [ "title", "editor", "thumbnail" ],
+		"supports" => [ "title", "editor", "thumbnail", "post-formats" ],
 	];
 
 	register_post_type( "work", $args );
